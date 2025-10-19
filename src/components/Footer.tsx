@@ -17,18 +17,21 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex gap-4 text-sm">
+          <div className="flex gap-4 text-sm flex-wrap justify-center">
             <button
               onClick={() => setIsOpen(true)}
               className="hover:text-white transition"
             >
               Tentang Kami
             </button>
+            <a href="/privacy-policy" className="hover:text-white transition">
+              Kebijakan Privasi
+            </a>
+            <a href="/terms-of-service" className="hover:text-white transition">
+              Syarat & Ketentuan
+            </a>
             <a href="/contact" className="hover:text-white transition">
               Kontak
-            </a>
-            <a href="/privacy" className="hover:text-white transition">
-              Kebijakan Privasi
             </a>
           </div>
         </div>
@@ -43,7 +46,7 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-2 text-sm">
-              <li>RANGGADYA ADITAMA RAMADHANI   — 2406012314096</li>
+              <li>RANGGADYA ADITAMA RAMADHANI   — 24060123140196</li>
               <li>RETNO EKA TRIATRY             — 24060123140188</li>
               <li>SHAFIYAH                      — 24060123140143</li>
               <li>STEPHEN MICHAEL SIRAIT        — 24060123140193</li>
